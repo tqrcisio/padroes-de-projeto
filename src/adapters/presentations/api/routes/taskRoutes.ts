@@ -5,6 +5,5 @@ import { taskControllerFactory } from "../../../factories/taskControllerFactory"
 
 
 export default (router: Router): void => {
-
   router.post("/tasks",expressAdapterRouter(taskControllerFactory()));
 };
